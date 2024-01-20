@@ -1,0 +1,46 @@
+html,body {
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+    background-color: #212121;
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url(fonts/Roboto/Roboto-Regular.ttf);
+}
+
+
+.main-container {
+    display: grid;
+    height: 100vh;
+}
+
+
+#sidebar {
+    display: grid;
+    grid-template-rows: 100px;
+    grid-auto-rows: 300px; 
+    justify-items: center;
+    width: 15%;
+    background-color: #1d2b3a;
+    color: white;
+    gap: 10px;
+}
+
+
+.side-navigation, .side-extra {
+    display: grid;
+    justify-items: center;
+    align-content: center;
+    font-family: 'Roboto';
+    font-size: 1.1rem;
+}
+
+
+
+
+
+
+
+
