@@ -24,7 +24,7 @@ html,body {
     justify-items: center;
     width: 15%;
     background-color: #1d2b3a;
-    color: white;
+    color: #ffffff;
     gap: 10px;
 }
 
@@ -34,11 +34,22 @@ html,body {
     justify-items: center;
     align-content: center;
     font-family: 'Roboto';
+}
+
+img {
+    width: 33px;
+}
+
+p {
     font-size: 1.1rem;
 }
 
-
-
+.icons {
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(2, 50px);
+    margin-right: 80px;
+}
 
 
 
