@@ -53,6 +53,7 @@ header {
     display: grid;
     height: 20vh;
     grid-template-rows: 150px 150px;
+    grid-template-columns: repeat(10, 150px);
     background-color: white;
 }
 
@@ -73,4 +74,23 @@ input {
     background-color: #e2e8f0;
     padding-left: 15px;
     font-size: 1rem;
+}
+
+.right-profile {
+    display: grid;
+    align-items: center;
+   margin-bottom: 75px;
+    gap: 20px;
+    grid-template-columns: repeat(3, 50px);
+    grid-column: 9 / 10;
+}
+
+#right-pfp {
+    width: 60px;
+    border-radius: 50%;
+}
+
+span {
+    font-family: 'Roboto';
+    width: 110px;
 }
