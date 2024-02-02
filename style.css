@@ -13,7 +13,8 @@ html,body {
 
 .main-container {
     display: grid;
-    grid-template-columns: 280px auto;
+    grid-template-columns: repeat(6, 280px);
+    grid-template-rows: repeat(9, 100px);
 }
 
 
@@ -51,6 +52,7 @@ p {
 
 header {
     display: grid;
+    grid-column: 2 / 8;
     height: 200px;
     grid-template-rows: 70px 150px;
     grid-template-columns: repeat(10, 150px);
@@ -153,3 +155,11 @@ button:hover {
     background-color: #112641;
     box-shadow: rgba(20, 70, 32, .2) 0 1px 0 inset;
   }
+
+
+.main-content {
+    display: grid;
+    grid-column: 2;
+    grid-row: 3;
+    grid-template-columns: repeat(3, 100px);
+}
