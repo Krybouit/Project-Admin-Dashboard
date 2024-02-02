@@ -51,7 +51,7 @@ p {
 
 header {
     display: grid;
-    height: 20vh;
+    height: 200px;
     grid-template-rows: 70px 150px;
     grid-template-columns: repeat(10, 150px);
     background-color: white;
