@@ -53,8 +53,8 @@ p {
 header {
     display: grid;
     grid-column: 2 / 8;
-    height: 200px;
-    grid-template-rows: 70px 150px;
+    height: 180px;
+    grid-template-rows: 70px 110px;
     grid-template-columns: repeat(10, 150px);
     background-color: white;
     box-shadow: rgba(27, 31, 35, .1) 0 1px 0;
@@ -101,6 +101,7 @@ input {
 
 .bottom-profile {
     display: grid;
+    align-content: space-between;
     align-items: center;
     grid-template-columns: 80px 200px;
     grid-column: 2 / 5;
@@ -125,14 +126,14 @@ span {
 
 .header-buttons {
     display: grid;
-    align-items: center;
+    margin-bottom: 30px;
+    align-items: end;
     grid-template-columns: repeat(3, 100px);
     gap: 60px;
     grid-column: 8 / 10;
 }
 
 button {
-   
     background-color: #336091;
     border: 1px solid rgba(27, 31, 35, .15);
     border-radius: 20px;
@@ -159,7 +160,51 @@ button:hover {
 
 .main-content {
     display: grid;
-    grid-column: 2;
-    grid-row: 3;
-    grid-template-columns: repeat(3, 100px);
+    grid-column: 2 / 5;
+    grid-row: 3 / 10;
+    grid-template-columns: repeat(3, 500px);
+}
+
+.first-section {
+    display: grid;
+    gap: 15px;
+    grid-template-rows: 20px 230px 230px 230px;
+}
+
+h2 {
+    display: grid;
+    margin: 0%;
+    margin-left: 25px;
+}
+
+
+.box {
+    display: grid;
+    grid-template-rows: 50px 120px;
+    background-color: white;
+    padding-left: 20px;
+    width: 380px;
+    border-radius: 3%;
+    margin-left: 20px;
+    border-left: 8px solid orange;
+}
+
+.box p {
+    font-family: 'Roboto';
+    width: 300px;
+    font-size: 1rem;
+    margin: 0%;
+}
+
+.box-icons {
+    display: grid;
+    justify-content: end;
+    grid-template-columns: repeat(3, 50px);
+}
+
+.second-section {
+    display: grid;
+    gap: 15px;
+    grid-template-rows: repeat(3, 230px);
+    margin-top: 34px;
 }
