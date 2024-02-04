@@ -87,7 +87,7 @@ input {
     grid-column: 9 / 10;
 }
 
-#right-pfp {
+.right-pfp {
     width: 60px;
     border-radius: 50%;
 }
@@ -175,6 +175,7 @@ h2 {
     display: grid;
     margin: 0%;
     margin-left: 25px;
+    color: white;
 }
 
 
@@ -208,3 +209,64 @@ h2 {
     grid-template-rows: repeat(3, 230px);
     margin-top: 34px;
 }
+
+.third-section {
+    display: grid;
+    gap: 15px;
+    grid-template-rows: 20px 300px 20px 350px;
+    
+}
+
+.small-box {
+    display: grid;
+    grid-template-rows: 40px 50px 1px  40px 50px 1px  40px 50px;
+    background-color: white;
+    padding-left: 20px;
+    width: 330px;
+    border-radius: 3%;
+    margin-left: 20px;
+}
+
+.row-border {
+    border-top: 2px solid grey;
+    width: 310px;
+}
+
+.small-box p {
+    font-family: 'Roboto';
+    width: 300px;
+    font-size: 0.8rem;
+    margin: 0%;
+}
+
+.small-box h3 {
+    font-size: 1rem;
+}
+
+.small-box-two {
+    display: grid;
+    background-color: white;
+    padding-left: 20px;
+    width: 330px;
+    border-radius: 3%;
+    margin-left: 20px;
+    grid-template-rows: repeat(4, 85px);
+}
+
+.trending-pfp {
+    margin-top: 10px;
+    width: 60px;
+    border-radius: 50%;
+}
+
+.profiles {
+    display: grid;
+    grid-template-columns: 80px;
+    grid-template-rows: 25px;
+}
+
+.profiles h3, .profiles p {
+    font-family: "Roboto";
+    grid-column: 2 / 3;
+}
+
