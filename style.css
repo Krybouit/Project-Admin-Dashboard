@@ -13,7 +13,7 @@ html,body {
 
 .main-container {
     display: grid;
-    grid-template-columns: repeat(6, 280px);
+    grid-template-columns: repeat(6, 320px);
     grid-template-rows: repeat(9, 100px);
 }
 
@@ -29,9 +29,9 @@ html,body {
     height: 100vh;
 }
 
-p {
+.side-navigation p, .side-extra p {
     font-size: 1.1rem;
-    width: 210px;
+    cursor: pointer;
 }
 
 .side-navigation, .side-extra {
@@ -85,6 +85,10 @@ input {
     gap: 30px;
     grid-template-columns: repeat(3, 50px);
     grid-column: 9 / 10;
+}
+
+.bell {
+    cursor: pointer;
 }
 
 .right-pfp {
@@ -163,6 +167,7 @@ button:hover {
     grid-column: 2 / 5;
     grid-row: 3 / 10;
     grid-template-columns: repeat(3, 500px);
+    margin-left: 50px;
 }
 
 .first-section {
@@ -201,6 +206,10 @@ h2 {
     display: grid;
     justify-content: end;
     grid-template-columns: repeat(3, 50px);
+}
+
+.box-icons img {
+    cursor: pointer;
 }
 
 .second-section {
@@ -257,6 +266,7 @@ h2 {
     margin-top: 10px;
     width: 60px;
     border-radius: 50%;
+    cursor: pointer;
 }
 
 .profiles {
@@ -268,5 +278,6 @@ h2 {
 .profiles h3, .profiles p {
     font-family: "Roboto";
     grid-column: 2 / 3;
+    cursor: pointer;
 }
 
